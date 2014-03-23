@@ -2,23 +2,23 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile"]
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : horace.li
-tagline: Horace Li
+title : Horace Li
+tagline: horace.li
+
 author :
   name : Horace Li
   email :  me@horaceli.com
   github : horaceli
   twitter : horaceli
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as sitemap.html
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
