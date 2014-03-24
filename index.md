@@ -1,6 +1,8 @@
 ---
 layout: default
-title: horace.li Home
+title: Home
+group: navigation
+weight: 10
 ---
 {% include JB/setup %}
 

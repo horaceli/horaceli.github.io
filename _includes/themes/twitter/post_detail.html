@@ -1,8 +1,18 @@
-<h1 class="entry-title">
+<h1>
     {% if post.title %}
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
     {% endif %}
+    {% if post.tagline %}
+    <small>{{post.tagline}}</small>
+    {% endif %}
 </h1>
-<article class="entry-content">
-    {{ content }}
-</article>
+<div class="row post-full">
+    <div class="col-md-12">
+        <div class="date">
+            <span>{{ post.date | date_to_long_string }}</span>
+        </div>
+        <article class="content">
+            {{ content }}
+        </article>
+    </div>
+</div>

@@ -1,23 +1,14 @@
 ---
 layout: page
 title: About
-header: About Me
 group: navigation
+weight: 11
 ---
 {% include JB/setup %}
 
-CV: [docx](http://cv.horaceli.com)
+Hi
 
-GitHub: [horaceli](https://github.com/horaceli/)
+I'm a developer and CS student based in London.
 
-LinkedIn: [horacehhli](http://www.linkedin.com/in/horacehhli)
+View my [CV](http://cv.horaceli.com) or better still, go to my [LinkedIn profile](http://uk.linkedin.com/in/horacehhli).
 
-Facebook: [horaceli](http://www.facebook.com/horaceli)
-
-Twitter: [@horaceli](http://twitter.com/horaceli)
-
-Google+: [HoraceLi](http://plus.google.com/u/0/+HoraceLi/)
-
-Flickr: [horaceli](http://www.flickr.com/photos/horaceli/)
-
-Email: [me@horaceli.com](mailto:me@horaceli.com)
