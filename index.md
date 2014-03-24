@@ -1,19 +1,17 @@
 ---
 layout: page
 title: Hello World!
-tagline: Supporting tagline
+tagline: horace.li / horaceli.com
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
+# Latest Post
+{% for post in site.posts limit:1 %}
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include themes/twitter/post_detail.html %}
+{% endfor %}
+# Recent Posts
+{% for post in site.posts offset:1 limit:2 %}
+... Show the next to posts ...
+{% endfor %}
