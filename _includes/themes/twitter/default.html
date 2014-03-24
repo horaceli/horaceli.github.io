@@ -51,26 +51,45 @@
             </button>
             <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
         </div>
-        <div class="navbar-collapse collapse">
+        <nav class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 {% assign pages_list = site.pages %}
                 {% assign group = 'navigation' %}
                 {% include JB/pages_list %}
             </ul>
-        </div>
+        </nav>
     </div>
 </div>
 
 <div class="container">
 
-    <div class="content">
-        {{ content }}
+    <div class="content row">
+        <main class="col-md-9">
+            {{ content }}
+        </main>
+        <aside class="col-md-3">
+            <h4>horace.li / horaceli.com</h4>
+            <a href="https://www.facebook.com/horaceli/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/horaceli/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/horacehhli/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://plus.google.com/+HoraceLi/"><i class="fa fa-google-plus"></i></a>
+            <a href="https://github.com/horaceli/"><i class="fa fa-github"></i></a>
+            <a href="https://www.flickr.com/photos/horaceli/"><i class="fa fa-flickr"></i></a>
+            <a href="http://instagram.com/apfel912/"><i class="fa fa-instagram"></i></a>
+        </aside>
     </div>
     <hr>
     <footer>
+        <nav>
+            <ul class="list-inline">
+                {% assign pages_list = site.pages %}
+                {% assign group = 'footer_navigation' %}
+                {% include JB/pages_list %}
+            </ul>
+        </nav>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
             with <a href="http://jekyllbootstrap.com" target="_blank"
-                              title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+                    title="Jekyll Bootstrap">Jekyll Bootstrap</a>
             and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
     </footer>

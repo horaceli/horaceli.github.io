@@ -7,9 +7,9 @@
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
-    <div class="content">
+    <article class="content">
       {{ content }}
-    </div>
+    </article>
 
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
