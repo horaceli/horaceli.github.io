@@ -1,18 +1,28 @@
-<h1>
+<h2>
     {% if post.title %}
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
     {% endif %}
     {% if post.tagline %}
     <small>{{post.tagline}}</small>
     {% endif %}
-</h1>
+</h2>
 <div class="row post-full">
     <div class="col-md-12">
         <div class="date">
             <span>{{ post.date | date_to_long_string }}</span>
         </div>
         <article class="content">
-            {{ content }}
+            {% if post.content contains '<!--more-->' %}
+
+            {{ post.content | split:'<!--more-->' | first }}
+
+            <p><a href="{{ post.url }}">Continue reading</a></p>
+
+            {% else %}
+
+            {{ post.content }}
+
+            {% endif %}
         </article>
     </div>
 </div>

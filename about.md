@@ -8,7 +8,6 @@ weight: 11
 
 Hi
 
-I'm a developer and CS student based in London.
+I'm a developer and CS student based in London. I'm learning to [bake](http://www.getchef.com/chef/) [cakes](https://plus.google.com/photos/+HoraceLi/albums/5953761650711575105/5953761651236865922?pid=5953761651236865922&oid=110726418017724727308). I like [wildlife](https://www.flickr.com/photos/horaceli/8402720495/), and hope to play with [them](http://hadoop.apache.org/) someday.
 
-View my [CV](http://cv.horaceli.com) or better still, go to my [LinkedIn profile](http://uk.linkedin.com/in/horacehhli).
-
+View my [CV](http://cv.horaceli.com) or contact me [@horaceli](https://twitter.com/horaceli/) or [me@horaceli.com](mailto:me@horaceli.com)
