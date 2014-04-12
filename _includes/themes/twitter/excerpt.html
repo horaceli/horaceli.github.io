@@ -11,6 +11,23 @@
         <div class="date">
             <span>{{ post.date | date_to_long_string }}</span>
         </div>
+
+        {% unless post.categories == empty %}
+        <ul class="list-inline">
+            <li><i class="fa fa-folder-open"> </i></li>
+            {% assign categories_list = post.categories %}
+            {% include JB/categories_list %}
+        </ul>
+        {% endunless %}
+
+        {% unless post.tags == empty %}
+        <ul class="list-inline">
+            <li><i class="fa fa-tags"> </i></li>
+            {% assign tags_list = post.tags %}
+            {% include JB/tags_list %}
+        </ul>
+        {% endunless %}
+
         <article class="content">
             {% if post.content contains '<!--more-->' %}
 
