@@ -30,6 +30,9 @@ author :
 #
 production_url : http://horace.li
 
+paginate: 5
+paginate_path: "page:num"
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :

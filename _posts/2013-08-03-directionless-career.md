@@ -5,7 +5,7 @@ tags : [reflections, career]
 ---
 {% include JB/setup %}
 
-I’m failing. Although it might be premature to judge, my signs aren’t good. I am running out of steam. Every so often I meet an alumni from my high school, or go to a careers fair, and I gain an impulse to fill in some job applications or updated my CV, but that rarely lasts more than a few days, usually before I have the chance to even submit a single application. Is it me, or is this a thing that applies to most students? Many of my classmates seem chilled as ever, but they’ve secured internships at investment banks, major tech companies – some even have multiple offers from competing companies.
+I am running out of steam. Every so often I meet an alumni from my high school, or go to a careers fair, and I gain an impulse to fill in some job applications or updated my CV, but that rarely lasts more than a few days, usually before I have the chance to even submit a single application. Is it me, or is this a thing that applies to most students? Many of my classmates seem chilled as ever, but they’ve secured internships at investment banks, major tech companies – some even have multiple offers from competing companies.
 
 <!--more-->
 
