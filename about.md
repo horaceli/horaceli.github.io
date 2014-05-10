@@ -14,4 +14,4 @@ You can email [me@horaceli.com](mailto:me@horaceli.com) or tweet [@horaceli](htt
 
 View my CV below or download it in [docx](https://dl.dropboxusercontent.com/s/q0z69k3dgljhpu0/CV.docx?dl=1) / [pdf](https://dl.dropboxusercontent.com/s/q0z69k3dgljhpu0/CV.docx?get_preview=1):
 
-<embed src="https://dl.dropboxusercontent.com/s/drhgn9copivzgr3/CV.docx?get_preview=1" type="application/pdf" width="100%" height="500">
+<embed src="https://dl.dropboxusercontent.com/s/q0z69k3dgljhpu0/CV.docx?get_preview=1" type="application/pdf" width="100%" height="500">
