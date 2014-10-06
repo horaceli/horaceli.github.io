@@ -1,11 +1,55 @@
----
-layout: default
-title: Home
-group: navigation
-weight: 10
----
-{% include JB/setup %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="global/css/main.css" rel="stylesheet">
+    <script src="http://ajax.aspnetcdn.com/ajax/bootstrap/3.1.1/bootstrap.min.js"></script>
+</head>
 
-{% for post in site.posts limit:10 %}
-  {% include themes/twitter/excerpt.html %}
-{% endfor %}
+<body>
+<div class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Horace Li</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content row">
+        <main class="col-md-9">
+<div class="page-header">
+    <h1>Horace Li</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        
+<p>I’m a developer and CS student based in London.</p>
+
+<p>You can email <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#101;&#064;&#104;&#111;&#114;&#097;&#099;&#101;&#108;&#105;&#046;&#099;&#111;&#109;">&#109;&#101;&#064;&#104;&#111;&#114;&#097;&#099;&#101;&#108;&#105;&#046;&#099;&#111;&#109;</a>.</p>
+
+<p><a href="https://dl.dropboxusercontent.com/s/q0z69k3dgljhpu0/CV.docx?dl=1">CV</a></p>
+
+    </div>
+</div>
+        </main>
+        <aside class="col-md-3">         
+            <section>
+                <a href="https://www.linkedin.com/in/horacehhli/"><i class="fa fa-fw fa-2x fa-linkedin"></i></a>
+                <a href="https://github.com/horaceli/"><i class="fa fa-fw fa-2x fa-github"></i></a>
+            </section>
+        </aside>
+    </div>
+    <hr>
+</div>
+</body>
+</html>
